@@ -1,0 +1,49 @@
+#data analytics-task1-EDA
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.datasets import load_iris
+import warnings
+warnings.filterwarnings('ignore')
+
+# Load the Iris dataset
+iris = load_iris()
+iris_df = pd.DataFrame(data=iris.data, columns=iris.feature_names)
+iris_df['species'] = pd.Categorical.from_codes(iris.target, iris.target_names)
+
+# Display the first few rows of the dataset
+print(iris_df.head())
+
+# Check for missing values
+print(iris_df.isnull().sum())
+
+# Summary statistics
+print(iris_df.describe())
+
+# Visualize the distribution of the features
+plt.figure(figsize=(10, 6))
+iris_df.hist(bins=20, figsize=(15, 10), layout=(2, 2))
+plt.suptitle('Feature Distributions', fontsize=20)
+plt.show()
+
+# Visualize pairwise relationships
+sns.pairplot(iris_df, hue='species')
+plt.suptitle('Pairwise Relationships', fontsize=20)
+plt.show()
+
+# Correlation heatmap
+plt.figure(figsize=(10, 8))
+sns.heatmap(iris_df.corr(), annot=True, cmap='coolwarm', fmt='.2f')
+plt.title('Correlation Heatmap', fontsize=20)
+plt.show()
+
+# Identify and visualize outliers using boxplots
+plt.figure(figsize=(12, 8))
+for i, feature in enumerate(iris.feature_names):
+    plt.subplot(2, 2, i+1)
+    sns.boxplot(x='species', y=feature, data=iris_df)
+    plt.title(f'Boxplot of {feature}', fontsize=16)
+plt.tight_layout()
+plt.suptitle('Outliers Detection', fontsize=20, y=1.02)
+plt.show()
