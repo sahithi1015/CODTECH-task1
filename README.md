@@ -97,6 +97,8 @@ alogrithms.specifically,this project aims to:
 ![Screenshot 2024-07-24 212116](https://github.com/user-attachments/assets/64cffc52-9ecc-49b0-9a53-23c4abba4203)
 ![Screenshot 2024-07-24 212419](https://github.com/user-attachments/assets/902aef48-2508-420b-9dc3-72ff0e7af396)
 ![Screenshot 2024-07-24 212436](https://github.com/user-attachments/assets/a96935ea-0526-455e-ae36-b4da4ca46617)
+![Screenshot 2024-07-25 190557](https://github.com/user-attachments/assets/49dd239b-5a59-44ef-9673-5ff71006e84a)
+![Screenshot 2024-07-25 190659](https://github.com/user-attachments/assets/590bcc87-eee0-4a22-b9d4-d5ebc390e1cb)
 
 
 
