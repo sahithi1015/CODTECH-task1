@@ -16,7 +16,7 @@ PROJECT: EXPLORATORY DATA ANALYSIS ON IRIS DATASET
 
 ##OBJECTIVE:
 
-The main objective of the project is to perform exploratory data analysis(EDA) on the iris dataset.EDA is crucial for understanding the underlying patterns,relationships and anomalies in the data before applying any manchine learning
+The main objective of the project is to perform exploratory data analysis(EDA) on the iris dataset.EDA is crucial for understanding the underlying patterns,relationships and anomalies in the data before applying any machine learning
 alogrithms.specifically,this project aims to:
 
 -Understand the distribution of each feature in the dataset.
