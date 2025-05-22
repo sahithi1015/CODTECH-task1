@@ -1,4 +1,4 @@
-#OVERVIEW OF PROJECT TASK1
+# OVERVIEW OF PROJECT TASK1
 
 NAME:AKULA SAHITHI
 
@@ -14,52 +14,52 @@ MENTOR: G.SRAVANI
 
 PROJECT: EXPLORATORY DATA ANALYSIS ON IRIS DATASET
 
-##OBJECTIVE:
+## OBJECTIVE:
 
 The main objective of the project is to perform exploratory data analysis(EDA) on the iris dataset.EDA is crucial for understanding the underlying patterns,relationships and anomalies in the data before applying any machine learning
 alogrithms.specifically,this project aims to:
 
--Understand the distribution of each feature in the dataset.
+- Understand the distribution of each feature in the dataset.
 
--Visualize relationships between different features.
+- Visualize relationships between different features.
 
--Identify and visualize any correlations between features.
+- Identify and visualize any correlations between features.
 
--Detect and visualize outliers in the dataset.
+- Detect and visualize outliers in the dataset.
 
-##key activities
+## key activities
 
-##1.Data Loading:
+## 1.Data Loading:
 
--Load the Iris dataset using sklearn.datasets.load_iris.
+- Load the Iris dataset using sklearn.datasets.load_iris.
 
--Convert the dataset into a pandas DataFrame for easy manipulation and analysis.
+- Convert the dataset into a pandas DataFrame for easy manipulation and analysis.
 
-##2.Basic Data Exploration:
+## 2.Basic Data Exploration:
 
--Display the first few rows of the dataset to get an initial look at the data.
+- Display the first few rows of the dataset to get an initial look at the data.
 
--Check for missing values to ensure data completeness.
+- Check for missing values to ensure data completeness.
 
--Generate summary statistics to understand the central tendency, dispersion, and shape of the data's distribution.
+- Generate summary statistics to understand the central tendency, dispersion, and shape of the data's distribution.
 
-##3.Visualize Feature Distribution:
+## 3.Visualize Feature Distribution:
 
--Plot histograms for each feature to visualize their distributions and identify any skewness or unusual patterns.
+- Plot histograms for each feature to visualize their distributions and identify any skewness or unusual patterns.
 
-##4.Visualize Pairwise Relationships:
+## 4.Visualize Pairwise Relationships:
 
--Use pair plots to visualize relationships between pairs of features, colored by species, to understand how features interact with each other.
+- Use pair plots to visualize relationships between pairs of features, colored by species, to understand how features interact with each other.
 
-##5.Correlation Analysis:
+## 5.Correlation Analysis:
 
--Generate a heatmap to visualize the correlation between different features and identify any strong linear relationships.
+- Generate a heatmap to visualize the correlation between different features and identify any strong linear relationships.
 
-##6.Outlier Detection:
+## 6.Outlier Detection:
 
--Use box plots to detect and visualize outliers in each feature, categorized by species, to identify any unusual observations that might affect analysis.
+- Use box plots to detect and visualize outliers in each feature, categorized by species, to identify any unusual observations that might affect analysis.
 
-##Technologies Used
+## Technologies Used
 
 1.Python: The programming language used for data analysis and visualization.
 
@@ -75,21 +75,21 @@ alogrithms.specifically,this project aims to:
 
 7.Warnings: The warnings library is used to suppress any unnecessary warnings that may clutter the output.
 
-##Summary:
+## Summary:
 
--Loading Data: The Iris dataset is loaded and converted into a pandas DataFrame.
+- Loading Data: The Iris dataset is loaded and converted into a pandas DataFrame.
 
--Data Exploration: Basic data exploration is performed to understand the structure and summary of the data.
+- Data Exploration: Basic data exploration is performed to understand the structure and summary of the data.
 
--Feature Distribution: Histograms are plotted to visualize the distribution of each feature.
+- Feature Distribution: Histograms are plotted to visualize the distribution of each feature.
 
--Pairwise Relationships: Pair plots are used to explore the relationships between different features.
+- Pairwise Relationships: Pair plots are used to explore the relationships between different features.
 
--Correlation: A heatmap is created to show the correlation between features.
+- Correlation: A heatmap is created to show the correlation between features.
 
--Outliers: Box plots are used to identify and visualize outliers in the data.
+- Outliers: Box plots are used to identify and visualize outliers in the data.
 
-##OUTPUT SCREENS:
+## OUTPUT SCREENS:
 ![Screenshot 2024-07-24 210502](https://github.com/user-attachments/assets/9a677561-f4c7-4dda-b622-edffffbba86b)
 ![Screenshot 2024-07-24 210622](https://github.com/user-attachments/assets/c834e130-50c2-4e81-90a2-8c9ab256c022)
 ![Screenshot 2024-07-24 211837](https://github.com/user-attachments/assets/32120142-4536-48a3-9bf6-0fe901105024)
